@@ -2,15 +2,31 @@
     margin:0px;
     padding:0px;
 }
+#camera{
+    width:30px;
+    height: 10px;
+    color:#29d9d5;
+    margin:7px;
+    font-size:22px;
+}
+a{
+    text-decoration: none;
+}
 header{
     width:100%;
     height:60px;
     background-color:black;
 }
+.head li a:hover{
+    color:#29d9d5;
+}
 nav{
     display:flex;
     justify-content:space-around;
     align-items: center;
+}
+.head li a{
+    color:white;
 }
 nav ul{
     list-style-type: none;
@@ -23,7 +39,7 @@ nav ul li{
 }
 nav div:nth-of-type(1){
     color:white;
-    font-size:20px;
+    font-size:23px;
     font-weight: bold;
 }
 nav div{
@@ -39,7 +55,6 @@ button{
 }
 .images{
     width:1300px;
-    min-height: 100vh;
     margin:auto;
 
 }
@@ -94,29 +109,73 @@ h3{
 }
 p{
     letter-spacing:0.8px;
-    line-height:1.5
+    line-height:1.5;
+    font-size:16px;
 }
 .footer{
     width:100%;
-    height:300px;
+    height:245px;
     display:flex;
     justify-content: space-around;
     background-color: black;
 }
 .graphy{
-    border:2px solid red;
     margin:10px;
     padding:10px;
-    color:blue;
+    height: 200px;
+    color:floralwhite;
     width:300px;
+    font-size:17px;
 }
 .contact{
-    border:2px solid red;
     margin:10px;
     padding:10px;
-    color:blue;
+    height: 200px;
+    color:floralwhite;
     width:300px;
+    font-size:17px;
 }
 ul{
     list-style-type: none;
+}
+.news{
+    margin:10px;
+    padding:10px;
+    height: 200px;
+    color:floralwhite;
+    width:300px;
+    font-size:17px;
+}
+input{
+    border:2px solid #29d9d5;
+    border-radius: 30px;
+    background-color:black;
+    height:20px;
+    padding:10px;
+    font-size:17px;
+    margin-top:10px;
+    margin-bottom:10px;
+    width:190px;
+    color:aliceblue;
+}
+h2{
+    font-size:30px;
+    margin:5px;
+}
+.contact ul li{
+    padding:10px;
+}
+.foot{
+    margin-bottom:20px;
+}
+.icons a{
+    padding:10px;
+    font-size: 20px;
+    border:2px solid #29d9d5;
+    border-radius:25px;
+    color:#29d9d5;
+    text-decoration: none;
+}
+.Subscribe{
+    font-size: 18px;
 }
